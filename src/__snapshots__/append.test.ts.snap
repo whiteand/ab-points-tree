@@ -1,0 +1,470 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`append function append instead of head with right and left, decreasing without changing of ranges 1`] = `
+Object {
+  "left": Object {
+    "left": null,
+    "point": Array [
+      4,
+      36,
+    ],
+    "ranges": Array [
+      Array [
+        4,
+        4,
+      ],
+      Array [
+        36,
+        36,
+      ],
+    ],
+    "right": null,
+  },
+  "point": Array [
+    5,
+    17,
+  ],
+  "ranges": Array [
+    Array [
+      4,
+      6,
+    ],
+    Array [
+      16,
+      36,
+    ],
+  ],
+  "right": Object {
+    "left": null,
+    "point": Array [
+      6,
+      16,
+    ],
+    "ranges": Array [
+      Array [
+        6,
+        6,
+      ],
+      Array [
+        16,
+        16,
+      ],
+    ],
+    "right": null,
+  },
+}
+`;
+
+exports[`append function append instead of head with right and left, decreasing, with max change ranges 1`] = `
+Object {
+  "left": Object {
+    "left": null,
+    "point": Array [
+      4,
+      36,
+    ],
+    "ranges": Array [
+      Array [
+        4,
+        4,
+      ],
+      Array [
+        36,
+        36,
+      ],
+    ],
+    "right": null,
+  },
+  "point": Array [
+    5,
+    40,
+  ],
+  "ranges": Array [
+    Array [
+      4,
+      6,
+    ],
+    Array [
+      16,
+      40,
+    ],
+  ],
+  "right": Object {
+    "left": null,
+    "point": Array [
+      6,
+      16,
+    ],
+    "ranges": Array [
+      Array [
+        6,
+        6,
+      ],
+      Array [
+        16,
+        16,
+      ],
+    ],
+    "right": null,
+  },
+}
+`;
+
+exports[`append function append instead of head with right and left, decreasing, with min change ranges 1`] = `
+Object {
+  "left": Object {
+    "left": null,
+    "point": Array [
+      4,
+      36,
+    ],
+    "ranges": Array [
+      Array [
+        4,
+        4,
+      ],
+      Array [
+        36,
+        36,
+      ],
+    ],
+    "right": null,
+  },
+  "point": Array [
+    5,
+    10,
+  ],
+  "ranges": Array [
+    Array [
+      4,
+      6,
+    ],
+    Array [
+      10,
+      36,
+    ],
+  ],
+  "right": Object {
+    "left": null,
+    "point": Array [
+      6,
+      16,
+    ],
+    "ranges": Array [
+      Array [
+        6,
+        6,
+      ],
+      Array [
+        16,
+        16,
+      ],
+    ],
+    "right": null,
+  },
+}
+`;
+
+exports[`append function append instead of head with right and left, with max change ranges 1`] = `
+Object {
+  "left": Object {
+    "left": null,
+    "point": Array [
+      4,
+      16,
+    ],
+    "ranges": Array [
+      Array [
+        4,
+        4,
+      ],
+      Array [
+        16,
+        16,
+      ],
+    ],
+    "right": null,
+  },
+  "point": Array [
+    5,
+    40,
+  ],
+  "ranges": Array [
+    Array [
+      4,
+      6,
+    ],
+    Array [
+      16,
+      40,
+    ],
+  ],
+  "right": Object {
+    "left": null,
+    "point": Array [
+      6,
+      36,
+    ],
+    "ranges": Array [
+      Array [
+        6,
+        6,
+      ],
+      Array [
+        36,
+        36,
+      ],
+    ],
+    "right": null,
+  },
+}
+`;
+
+exports[`append function append instead of head with right and left, with min change ranges 1`] = `
+Object {
+  "left": Object {
+    "left": null,
+    "point": Array [
+      4,
+      16,
+    ],
+    "ranges": Array [
+      Array [
+        4,
+        4,
+      ],
+      Array [
+        16,
+        16,
+      ],
+    ],
+    "right": null,
+  },
+  "point": Array [
+    5,
+    10,
+  ],
+  "ranges": Array [
+    Array [
+      4,
+      6,
+    ],
+    Array [
+      10,
+      36,
+    ],
+  ],
+  "right": Object {
+    "left": null,
+    "point": Array [
+      6,
+      36,
+    ],
+    "ranges": Array [
+      Array [
+        6,
+        6,
+      ],
+      Array [
+        36,
+        36,
+      ],
+    ],
+    "right": null,
+  },
+}
+`;
+
+exports[`append function append instead of head with right and left, without changing of ranges 1`] = `
+Object {
+  "left": Object {
+    "left": null,
+    "point": Array [
+      4,
+      16,
+    ],
+    "ranges": Array [
+      Array [
+        4,
+        4,
+      ],
+      Array [
+        16,
+        16,
+      ],
+    ],
+    "right": null,
+  },
+  "point": Array [
+    5,
+    17,
+  ],
+  "ranges": Array [
+    Array [
+      4,
+      6,
+    ],
+    Array [
+      16,
+      36,
+    ],
+  ],
+  "right": Object {
+    "left": null,
+    "point": Array [
+      6,
+      36,
+    ],
+    "ranges": Array [
+      Array [
+        6,
+        6,
+      ],
+      Array [
+        36,
+        36,
+      ],
+    ],
+    "right": null,
+  },
+}
+`;
+
+exports[`append function append instead of head with right and left, without changing of ranges 2`] = `
+Object {
+  "left": Object {
+    "left": null,
+    "point": Array [
+      4,
+      16,
+    ],
+    "ranges": Array [
+      Array [
+        4,
+        4,
+      ],
+      Array [
+        16,
+        16,
+      ],
+    ],
+    "right": null,
+  },
+  "point": Array [
+    5,
+    17,
+  ],
+  "ranges": Array [
+    Array [
+      4,
+      6,
+    ],
+    Array [
+      16,
+      36,
+    ],
+  ],
+  "right": Object {
+    "left": null,
+    "point": Array [
+      6,
+      36,
+    ],
+    "ranges": Array [
+      Array [
+        6,
+        6,
+      ],
+      Array [
+        36,
+        36,
+      ],
+    ],
+    "right": null,
+  },
+}
+`;
+
+exports[`append function append instead of head without right and left 1`] = `
+Object {
+  "left": null,
+  "point": Array [
+    1,
+    3,
+  ],
+  "ranges": Array [
+    Array [
+      1,
+      1,
+    ],
+    Array [
+      3,
+      3,
+    ],
+  ],
+  "right": null,
+}
+`;
+
+exports[`append function append to empty tree 1-d point 1`] = `
+Object {
+  "left": null,
+  "point": Array [
+    1,
+  ],
+  "ranges": Array [
+    Array [
+      1,
+      1,
+    ],
+  ],
+  "right": null,
+}
+`;
+
+exports[`append function append to empty tree 2-d point 1`] = `
+Object {
+  "left": null,
+  "point": Array [
+    1,
+    2,
+  ],
+  "ranges": Array [
+    Array [
+      1,
+      1,
+    ],
+    Array [
+      2,
+      2,
+    ],
+  ],
+  "right": null,
+}
+`;
+
+exports[`append function append to empty tree 3-d point 1`] = `
+Object {
+  "left": null,
+  "point": Array [
+    1,
+    2,
+    3,
+  ],
+  "ranges": Array [
+    Array [
+      1,
+      1,
+    ],
+    Array [
+      2,
+      2,
+    ],
+    Array [
+      3,
+      3,
+    ],
+  ],
+  "right": null,
+}
+`;
