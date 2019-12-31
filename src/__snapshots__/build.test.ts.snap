@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`build function without config returns full tree 1`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+  Array [
+    5,
+    25,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated 1`] = `
+Array [
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated 2`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated 3`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+  Array [
+    5,
+    25,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated 4`] = `Array []`;
+
+exports[`build function without config returns tree with each chunk calculated from predicate 1`] = `
+Array [
+  Array [
+    3,
+    9,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated from predicate 2`] = `
+Array [
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated from predicate 3`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated from predicate 4`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+  Array [
+    5,
+    25,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated from predicate 5`] = `Array []`;

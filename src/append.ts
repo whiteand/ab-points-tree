@@ -5,14 +5,17 @@ function _append<Point extends number[]>(
   tree: ITree<Point> | null,
   point: Point,
 ): ITree<Point> {
+  const ranges = Array(point.length);
   if (!tree) {
-    const ranges = point.map(value => [value, value] as [number, number]);
+    for (let i = 0; i < point.length; i++) {
+      const x = point[i];
+      ranges[i] = [x, x];
+    }
     return getTree(point, ranges, null, null);
   }
 
   const headX = tree.point[0];
   const pointX = point[0];
-  const ranges = Array(point.length);
 
   if (headX === pointX) {
     ranges[0] = tree.ranges[0];

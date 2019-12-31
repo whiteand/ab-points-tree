@@ -1,5 +1,5 @@
-import { iterate } from './iterate';
 import { append } from './append';
+import { iterate } from './iterate';
 
 describe('iterate in tree', () => {
   test('iterate of null', () => {
