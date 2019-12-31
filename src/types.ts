@@ -14,5 +14,5 @@ export interface IBuildConfig<Point extends number[]> {
     tree: ITree<Point>,
     currentChunkSize: number,
   ) => boolean;
-  initialTree?: ITree<Point>;
+  initialTree?: ITree<Point> | null;
 }
