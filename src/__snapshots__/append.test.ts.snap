@@ -330,61 +330,6 @@ Object {
 }
 `;
 
-exports[`append function append instead of head with right and left, without changing of ranges 2`] = `
-Object {
-  "left": Object {
-    "left": null,
-    "point": Array [
-      4,
-      16,
-    ],
-    "ranges": Array [
-      Array [
-        4,
-        4,
-      ],
-      Array [
-        16,
-        16,
-      ],
-    ],
-    "right": null,
-  },
-  "point": Array [
-    5,
-    17,
-  ],
-  "ranges": Array [
-    Array [
-      4,
-      6,
-    ],
-    Array [
-      16,
-      36,
-    ],
-  ],
-  "right": Object {
-    "left": null,
-    "point": Array [
-      6,
-      36,
-    ],
-    "ranges": Array [
-      Array [
-        6,
-        6,
-      ],
-      Array [
-        36,
-        36,
-      ],
-    ],
-    "right": null,
-  },
-}
-`;
-
 exports[`append function append instead of head without right and left 1`] = `
 Object {
   "left": null,

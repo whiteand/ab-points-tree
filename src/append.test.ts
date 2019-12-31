@@ -193,4 +193,99 @@ describe('append function', () => {
     const newT = append(tree, [5, 40]);
     expect(newT).toMatchSnapshot();
   });
+  test('append one leap', () => {
+    const t = [5, 4].reduce(
+      (tree: ITree<[number, number, number]> | null, x) =>
+        append(tree, [x, x + 1, x * x] as [number, number, number]),
+      null,
+    );
+    expect(t).toEqual({
+      left: {
+        left: null,
+        point: [4, 5, 16],
+        ranges: [
+          [4, 4],
+          [5, 5],
+          [16, 16],
+        ],
+        right: null,
+      },
+      point: [5, 6, 25],
+      ranges: [
+        [4, 5],
+        [5, 6],
+        [16, 25],
+      ],
+      right: null,
+    });
+  });
+  test('append leaps', () => {
+    const t = [5, 4, 6].reduce(
+      (tree: ITree<[number, number, number]> | null, x) =>
+        append(tree, [x, x + 1, x * x] as [number, number, number]),
+      null,
+    );
+    expect(t).toEqual({
+      left: {
+        left: null,
+        point: [4, 5, 16],
+        ranges: [
+          [4, 4],
+          [5, 5],
+          [16, 16],
+        ],
+        right: null,
+      },
+      point: [5, 6, 25],
+      ranges: [
+        [4, 6],
+        [5, 7],
+        [16, 36],
+      ],
+      right: {
+        left: null,
+        point: [6, 7, 36],
+        ranges: [
+          [6, 6],
+          [7, 7],
+          [36, 36],
+        ],
+        right: null,
+      },
+    });
+  });
+  test('append multiple points', () => {
+    const t = append(
+      null,
+      ...[5, 4, 6].map(x => [x, x + 1, x * x] as [number, number, number]),
+    );
+    expect(t).toEqual({
+      left: {
+        left: null,
+        point: [4, 5, 16],
+        ranges: [
+          [4, 4],
+          [5, 5],
+          [16, 16],
+        ],
+        right: null,
+      },
+      point: [5, 6, 25],
+      ranges: [
+        [4, 6],
+        [5, 7],
+        [16, 36],
+      ],
+      right: {
+        left: null,
+        point: [6, 7, 36],
+        ranges: [
+          [6, 6],
+          [7, 7],
+          [36, 36],
+        ],
+        right: null,
+      },
+    });
+  });
 });
