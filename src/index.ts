@@ -3,3 +3,4 @@ export * from './types';
 export * from './tree';
 export * from './iterate';
 export * from './build';
+export * from './merge';
