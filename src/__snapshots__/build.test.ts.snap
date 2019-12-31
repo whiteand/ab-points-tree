@@ -155,3 +155,89 @@ Array [
 `;
 
 exports[`build function without config returns tree with each chunk calculated from predicate 5`] = `Array []`;
+
+exports[`build function without config returns tree with each chunk calculated from predicate 6`] = `
+Array [
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    10,
+    100,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated from predicate 7`] = `
+Array [
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    10,
+    100,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated from predicate 8`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+  Array [
+    10,
+    100,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated from predicate 9`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+  Array [
+    5,
+    25,
+  ],
+  Array [
+    10,
+    100,
+  ],
+]
+`;
+
+exports[`build function without config returns tree with each chunk calculated from predicate 10`] = `Array []`;

@@ -4,11 +4,11 @@ import { IBuildConfig } from './types';
 export function* build<Point extends number[]>(
   xs: Iterable<number>,
   fn: (x: number) => Point,
-  { chunkSize, chunkPredicate }: IBuildConfig<Point> = {},
+  { chunkSize, chunkPredicate, initialTree }: IBuildConfig<Point> = {},
 ) {
   let index = -1;
   let currentChunkSize = 0;
-  let tree = null;
+  let tree = initialTree || null;
   for (const x of xs) {
     index++;
     currentChunkSize++;
