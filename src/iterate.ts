@@ -15,7 +15,9 @@ export function iterateFunc<Point extends number[]>(
   tree: ITree<Point> | null,
   callback: (point: Point) => void,
 ) {
-  if (!tree) return null;
+  if (!tree) {
+    return null;
+  }
 
   iterateFunc(tree.left, callback);
   callback(tree.point);
