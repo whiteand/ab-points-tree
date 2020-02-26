@@ -241,3 +241,245 @@ Array [
 `;
 
 exports[`build function without config returns tree with each chunk calculated from predicate 10`] = `Array []`;
+
+exports[`mutbuild function without config returns full tree 1`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+  Array [
+    5,
+    25,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated 1`] = `
+Array [
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated 2`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated 3`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+  Array [
+    5,
+    25,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated 4`] = `Array []`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated from predicate 1`] = `
+Array [
+  Array [
+    3,
+    9,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated from predicate 2`] = `
+Array [
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated from predicate 3`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated from predicate 4`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+  Array [
+    5,
+    25,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated from predicate 5`] = `Array []`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated from predicate 6`] = `
+Array [
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    10,
+    100,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated from predicate 7`] = `
+Array [
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    10,
+    100,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated from predicate 8`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+  Array [
+    10,
+    100,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated from predicate 9`] = `
+Array [
+  Array [
+    1,
+    1,
+  ],
+  Array [
+    2,
+    4,
+  ],
+  Array [
+    3,
+    9,
+  ],
+  Array [
+    4,
+    16,
+  ],
+  Array [
+    5,
+    25,
+  ],
+  Array [
+    10,
+    100,
+  ],
+]
+`;
+
+exports[`mutbuild function without config returns tree with each chunk calculated from predicate 10`] = `Array []`;
