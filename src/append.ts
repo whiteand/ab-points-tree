@@ -5,8 +5,9 @@ function _append<Point extends number[]>(
   tree: ITree<Point> | null,
   point: Point,
 ): ITree<Point> {
-  const ranges: [number, number][] = [];
+  const ranges: Array<[number, number]> = [];
   if (!tree) {
+    // tslint:disable-next-line
     for (let i = 0; i < point.length; i++) {
       const x = point[i];
       ranges.push([x, x]);
@@ -107,8 +108,9 @@ function _mutappend<Point extends number[]>(
   tree: ITree<Point> | null,
   point: Point,
 ): ITree<Point> {
-  const ranges: [number, number][] = [];
+  const ranges: Array<[number, number]> = [];
   if (!tree) {
+    // tslint:disable-next-line
     for (let i = 0; i < point.length; i++) {
       const x = point[i];
       ranges.push([x, x]);
