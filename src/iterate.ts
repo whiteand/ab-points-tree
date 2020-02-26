@@ -10,3 +10,14 @@ export function* iterate<Point extends number[]>(
   yield tree.point;
   yield* iterate(tree.right);
 }
+
+export function iterateFunc<Point extends number[]>(
+  tree: ITree<Point> | null,
+  callback: (point: Point) => void,
+) {
+  if (!tree) return null;
+
+  iterateFunc(tree.left, callback);
+  callback(tree.point);
+  iterateFunc(tree.right, callback);
+}
